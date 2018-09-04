@@ -61,7 +61,7 @@ class BFS(Solver):
             # print(expanded)
             # Iterate through each move
             moves = self.getAvailableMoves(coord)
-            random.shuffle(moves)
+            # random.shuffle(moves)
             for move in moves:
                 # print(move)
                 # Get new head coordinates of snake with the move
