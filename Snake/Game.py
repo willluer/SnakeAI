@@ -14,7 +14,7 @@ class SnakeGame:
         self.directions = Directions()
         self.displaySize = 12
         # self.myDisplay=pygame.display.set_mode((cols*self.displaySize,rows*self.displaySize))
-        self.waitTime = 0.001
+        self.waitTime = 0.03
         self.score = 0
 
     def printStatus(self):
